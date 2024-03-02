@@ -22,6 +22,12 @@ body{
     color: #fff;
 }
 
+h3{
+    color: azure;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 70px;
+}
 .nav ul {
     display: flex;
     
@@ -32,12 +38,17 @@ ul li{
     margin-right: 20px;
 }
 
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .logo{
     font-size: 1.5rem;
     font-weight: 800;
 }
 
-a {
+.main-wrapper >a {
     text-decoration: none;
     color: black;
 }
@@ -54,8 +65,8 @@ a {
     border: 2px solid #2a699c;
     border-radius: 10px;
     color: #fff;
-    padding: 20px 40px;
-    font-size: 22px;
+    padding: 30px 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 
