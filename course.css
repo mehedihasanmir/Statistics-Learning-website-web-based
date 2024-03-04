@@ -3,4 +3,5 @@ div{
     display:flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
 }
