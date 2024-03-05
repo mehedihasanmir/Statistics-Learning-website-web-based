@@ -1,3 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+}
+.center{
+    text-align: center;
 }

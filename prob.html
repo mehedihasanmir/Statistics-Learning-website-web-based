@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probability Theory</title>
+    <link rel="stylesheet" href="/prob.css">
+</head>
+
+<body>
+    <div>
+        <h2>What is Probability Theory?</h2>
+        <p>
+            Probability theory is a field of mathematics and statistics that is concerned with finding the probabilities
+            associated with random events. There are two main approaches available to study probability theory. These
+            are theoretical probability and experimental probability. Theoretical probability is determined on the basis
+            of logical reasoning without conducting experiments. In contrast, experimental probability is determined on
+            the basis of historic data by performing repeated experiments.
+        </p>
+    </div>
+    <div>
+        <h2>Example of Probability Theory</h2>
+        <p>
+            Suppose the probability of obtaining a number 4 on rolling a fair dice needs to be established. The number
+            of favorable outcomes is 1. The possible outcomes of the dice are {1, 2, 3, 4, 5, 6}. This implies that
+            there are a total of 6 outcomes. Thus, the probability of obtaining 4 on a dice roll, using probability
+            theory, can be computed as 1 / 6 = 0.167.
+        </p>
+    </div>
+    <div>
+        <h2>Some basic topic of probability theory</h2>
+        <p>
+            There are some basic terminologies associated with probability theory that aid in the understanding of this
+            field of mathematics.
+        </p>
+        <section>
+            <h3>Random Experiment</h3>
+            <p>A random experiment, in probability theory, can be defined as a trial that is repeated multiple times in
+                order to get a well-defined set of possible outcomes. Tossing a coin is an example of a random
+                experiment.</p>
+        </section>
+        <section>
+            <h3>Sample Space</h3>
+            <p>Sample space can be defined as the set of all possible outcomes that result from conducting a random
+                experiment. For example, the sample space of tossing a fair coin is {heads, tails}.</p>
+        </section>
+        <section>
+            <h3>Event</h3>
+            <p>Probability theory defines an event as a set of outcomes of an experiment that forms a subset of the
+                sample space. The types of events are given as follows:
+            </p>
+            <ul>
+                <li>Independent events: Events that are not affected by other events are independent events.</li>
+                <li>Dependent events: Events that are affected by other events are known as dependent events.</li>
+                <li>Mutually exclusive events: Events that cannot take place at the same time are mutually exclusive
+                    events.</li>
+                <li>Equally likely events: Two or more events that have the same chance of occurring are known as
+                    equally likely events.</li>
+                <li>Exhaustive events: An exhaustive event is one that is equal to the sample space of an experiment.
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Random Variable</h3>
+            <p>In probability theory, a random variable can be defined as a variable that assumes the value of all
+                possible outcomes of an experiment. There are two types of random variables as given below.
+            </p>
+            <ul>
+                <li>Discrete Random Variable: Discrete random variables can take an exact countable value such as 0, 1,
+                    2... It can be described by the cumulative distribution function and the probability mass function.
+                </li>
+                <li>
+                    Continuous Random Variable: A variable that can take on an infinite number of values is known as a
+                    continuous random variable. The cumulative distribution function and probability density function
+                    are used to define the characteristics of this variable.
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Probability</h3>
+            <p>Probability, in probability theory, can be defined as the numerical likelihood of occurrence of an event.
+                The probability of an event taking place will always lie between 0 and 1. This is because the number of
+                desired outcomes can never exceed the total number of outcomes of an event. Theoretical probability and
+                empirical probability are used in probability theory to measure the chance of an event taking place.
+                <br>
+            </p>
+        </section>
+        <section>
+            <h3>Conditional Probability</h3>
+            <p>
+                When the likelihood of occurrence of an event needs to be determined given that another event has
+                already taken place, it is known as conditional probability. It is denoted as P(A | B). This represents
+                the conditional probability of event A given that event B has already occurred.
+            </p>
+        </section>
+        <section>
+            <h3>Expectation</h3>
+            <p>
+                The expectation of a random variable, X, can be defined as the average value of the outcomes of an
+                experiment when it is conducted multiple times. It is denoted as E[X]. It is also known as the mean of
+                the random variable.
+            </p>
+        </section>
+    </div>
+    <div>
+        <h2>Probability Theory Formulas</h2>
+        <p>There are many formulas in probability theory that help in calculating the various probabilities associated
+            with events. The most important probability theory formulas are listed below.</p>
+        <ul>
+            <li>Theoretical probability: Number of favorable outcomes / Number of possible outcomes.</li>
+            <li>Empirical probability: Number of times an event occurs / Total number of trials.</li>
+            <li>Addition Rule: P(A ∪ B) = P(A) + P(B) - P(A∩B), where A and B are events.</li>
+            <li>Complementary Rule: P(A') = 1 - P(A). P(A') denotes the probability of an event not happening.</li>
+            <li>Independent events: P(A∩B) = P(A) ⋅ P(B)</li>
+            <li>Conditional probability: P(A | B) = P(A∩B) / P(B)</li>
+            <li>Bayes' Theorem: P(A | B) = P(B | A) ⋅ P(A) / P(B)</li>
+            <li>Probability mass function: f(x) = P(X = x)</li>
+            <li>Probability density function: p(x) = p(x) = 
+                d
+                F
+                (
+                x
+                )
+                d
+                x
+                 = F'(x), where F(x) is the cumulative distribution function.
+            </li>
+            <li>Expectation of a continuous random variable: 
+                ∫
+                x
+                f
+                (
+                x
+                )
+                d
+                x
+                , where f(x) is the pdf.
+            </li>
+            <li>
+                Expectation of a discrete random variable: 
+∑
+x
+p
+(
+x
+)
+, where p(x) is the pmf.
+            </li>
+            <li>Variance: Var(X) = E[X2] - (E[X])2</li>
+        </ul>
+    </div>
+</body>
+
+</html>

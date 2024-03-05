@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regression Analysis</title>
     <link rel="stylesheet" href="/reg_an.css">
 </head>
+
 <body>
-    
+    <div>
+        <h2>What is Regression Analysis</h2>
+        <section>
+            Regression analysis is a set of statistical methods used for the estimation of relationships between a
+            dependent variable and one or more independent variables. It can be utilized to assess the strength of the
+            relationship between variables and for modeling the future relationship between them.
+        </section>
+        <img src="/image/Regression Analysis.png" alt="Regression Analysis" height="600px" width="500px">
+        <section>
+            Regression analysis includes several variations, such as linear, multiple linear, and nonlinear. The most
+            common models are simple linear and multiple linear. Nonlinear regression analysis is commonly used for more
+            complicated data sets in which the dependent and independent variables show a nonlinear relationship.
+        </section>
+
+        <div>
+            <section>
+                <h2>Linear Model Assumptions</h2>
+                <p>Linear regression analysis is based on six fundamental assumptions:</p>
+                <ol>
+                    <li>The dependent and independent variables show a linear relationship between the slope and the
+                        intercept.</li>
+                    <li>The independent variable is not random.</li>
+                    <li>The value of the residual (error) is zero.</li>
+                    <li>The value of the residual (error) is constant across all observations.</li>
+                    <li>The value of the residual (error) is not correlated across all observations.</li>
+                    <li>The residual (error) values follow the normal distribution.</li>
+            </section>
+            <section>
+                <p>Simple linear regression is a model that assesses the relationship between a dependent variable and
+                    an independent variable. The simple linear model is expressed using the following equation:</p>
+            </section>
+            <section>
+                <b><p class="center">Y = a + bX + ϵ</p></b>
+                <p>Where,</p>
+                <ul>
+                    <li>Y – Dependent variable</li>
+                    <li>X – Independent (explanatory) variable</li>
+                    <li>a – Intercept</li>
+                    <li>b – Slope</li>
+                    <li>ϵ – Residual (error)</li>
+                </ul>
+            </section>
+        </div>
+        <div>
+            <section>
+                <h2> Multiple Linear Regression</h2>
+                <p>Multiple linear regression analysis is essentially similar to the simple linear model, with the
+                    exception that multiple independent variables are used in the model. The mathematical representation
+                    of multiple linear regression is: <br>
+                </p>
+                <b><p class="center">Y = a + bX1 + cX2 + dX3 + ϵ</p></b>
+                <p>Where:</p>
+                <div>
+                    <ul>
+                        <li>Y – Dependent variable</li>
+                        <li>X1, X2, X3 – Independent (explanatory) variables</li>
+                        <li>a – Intercept</li>
+                        <li>b, c, d – Slopes</li>
+                        <li>ϵ – Residual (error)</li>
+                    </ul>
+                    <p>Multiple linear regression follows the same conditions as the simple linear model. However, since
+                        there are several independent variables in multiple linear analysis, there is another mandatory
+                        condition for the model:
+                    </p>
+                    <ul>
+                        <li><i>
+                                Non-collinearity: Independent variables should show a minimum correlation with each
+                                other. If the independent variables are highly correlated with each other, it will be
+                                difficult to assess the true relationships between the dependent and independent
+                                variables.
+                            </i>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <footer><p>Go this website and try to find dataset about Regression Analysis</p><a href="www.kaggle.com">kaggle</a></footer>
+    </div>
 </body>
+
 </html>
