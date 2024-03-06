@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypothesis Testing</title>
+    <link rel="stylesheet" href="/ht.css">
+</head>
+
+<body>
+    <section>
+        <h2>what is Hypothesis Testing?</h2>
+        <p>
+            <b>Hypothesis Testing</b> is a formal procedure for investigating our ideas about the world using
+            statistics. It is most often used by scientists to test specific predictions, called hypotheses, that arise
+            from theories.
+        </p>
+    </section>
+    <section>
+        <u>There are 5 main steps in hypothesis testing:</u>
+        <ol>
+            <li>State your research hypothesis as a null hypothesis and alternate hypothesis (Ho) and (Ha or H1).</li>
+            <li>Collect data in a way designed to test the hypothesis.</li>
+            <li>Perform an appropriate statistical test.</li>
+            <li>Decide whether to reject or fail to reject your null hypothesis.</li>
+            <li>Present the findings in your results and discussion section.</li>
+        </ol>
+    </section>
+    <section>
+        <section>
+            <h4>Step 1: State your null and alternate hypothesis</h4>
+            <p>After developing your initial research hypothesis (the prediction that you want to investigate), it is
+                important to restate it as a null (Ho) and alternate (Ha) hypothesis so that you can test it
+                mathematically. <br>
+            </p>
+            <p>
+                The alternate hypothesis is usually your initial hypothesis that predicts a relationship between
+                variables. The null hypothesis is a prediction of no relationship between the variables you are
+                interested in.
+            </p>
+        </section>
+        <section>
+            <h5><u>Hypothesis testing example</u></h5>
+            <p>
+                You want to test whether there is a relationship between gender and height. Based on your knowledge of
+                human physiology, you formulate a hypothesis that men are, on average, taller than women. To test this
+                hypothesis, you restate it as:
+            </p>
+            <ul>
+                <li>H0: Men are, on average, not taller than women.
+                    Ha: Men are, on average, taller than women.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Step 2: Collect data</h3>
+            <p>
+                For a statistical test to be valid, it is important to perform sampling and collect data in a way that
+                is designed to test your hypothesis. If your data are not representative, then you cannot make
+                statistical inferences about the population you are interested in.
+            </p>
+            <h5><u>Example</u></h5>
+            <section>
+                To test differences in average height between men and women, your sample should have an equal proportion
+                of men and women, and cover a variety of socio-economic classes and any other control variables that
+                might influence average height.
+            </section>
+            <section>
+                You should also consider your scope (Worldwide? For one country?) A potential data source in this case
+                might be census data, since it includes data from a variety of regions and social classes and is
+                available for many countries around the world.
+            </section>
+        </section>
+        <section>
+            <h3>Step 3: Perform a statistical test</h3>
+            <p>
+            <div>There are a variety of statistical tests available, but they are all based on the comparison of
+                within-group variance (how spread out the data is within a category) versus between-group variance (how
+                different the categories are from one another).
+            </div>
+            <div>
+                If the between-group variance is large enough that there is little or no overlap between groups, then
+                your statistical test will reflect that by showing a low p-value. This means it is unlikely that the
+                differences between these groups came about by chance.
+            </div>
+            <div>
+                Alternatively, if there is high within-group variance and low between-group variance, then your
+                statistical test will reflect that with a high p-value. This means it is likely that any difference you
+                measure between groups is due to chance.
+            </div>
+            <div>
+                Your choice of statistical test will be based on the type of variables and the level of measurement of
+                your collected data.
+            </div>
+            </p>
+            <section>
+                <h5><u>Example</u></h5>
+                <p>Based on the type of data you collected, you perform a one-tailed t-test to test whether men are in
+                    fact taller than women. This test gives you:
+                </p>
+                <ul>
+                    <li>an estimate of the difference in average height between the two groups.</li>
+                    <li>a p-value showing how likely you are to see this difference if the null hypothesis of no
+                        difference is true.</li>
+                </ul>
+                <p>Your t-test shows an average height of 175.4 cm for men and an average height of 161.7 cm for women,
+                    with an estimate of the true difference ranging from 10.2 cm to infinity. The p-value is 0.002.
+                </p>
+            </section>
+        </section>
+        <section>
+            <h3>Step 4: Decide whether to reject or fail to reject your null hypothesis</h3>
+            <div>
+                Based on the outcome of your statistical test, you will have to decide whether to reject or fail to
+                reject your null hypothesis.
+            </div>
+            <div>
+                In most cases you will use the p-value generated by your statistical test to guide your decision. And in
+                most cases, your predetermined level of significance for rejecting the null hypothesis will be 0.05 –
+                that is, when there is a less than 5% chance that you would see these results if the null hypothesis
+                were true.
+            </div>
+            <div>
+                In some cases, researchers choose a more conservative level of significance, such as 0.01 (1%). This
+                minimizes the risk of incorrectly rejecting the null hypothesis (Type I error).
+            </div>
+            <div>
+                <h5><u>Example</u></h5>
+                <p>
+                    In your analysis of the difference in average height between men and women, you find that the
+                    p-value of 0.002 is below your cutoff of 0.05, so you decide to reject your null hypothesis of no
+                    difference.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h3>Step 5: Present your findings</h3>
+            <div>
+                The results of hypothesis testing will be presented in the results and discussion sections of your
+                research paper, dissertation or thesis.
+            </div>
+            <div>
+                In the results section you should give a brief summary of the data and a summary of the results of your
+                statistical test (for example, the estimated difference between group means and associated p-value). In
+                the discussion, you can discuss whether your initial hypothesis was supported by your results or not.
+            </div>
+            <div>
+                In the formal language of hypothesis testing, we talk about rejecting or failing to reject the null
+                hypothesis. You will probably be asked to do this in your statistics assignments.
+            </div>
+            <div>
+                <h5><u>Stating results in a statistics assignment</u></h5>
+                <p>
+                    In our comparison of mean height between men and women we found an average difference of 13.7 cm and
+                    a p-value of 0.002; therefore, we can reject the null hypothesis that men are not taller than women
+                    and conclude that there is likely a difference in height between men and women.
+                </p>
+            </div>
+            <div>
+                However, when presenting research results in academic papers we rarely talk this way. Instead, we go
+                back to our alternate hypothesis (in this case, the hypothesis that men are on average taller than
+                women) and state whether the result of our test did or did not support the alternate hypothesis.
+            </div>
+            <div>
+                If your null hypothesis was rejected, this result is interpreted as “supported the alternate
+                hypothesis.”
+            </div>
+            <div>
+                <h5><u>Stating results in a research paper</u></h5>
+                <p>
+                    We found a difference in average height between men and women of 14.3cm, with a p-value of 0.002,
+                    consistent with our hypothesis that there is a difference in height between men and women.
+                </p>
+            </div>
+            <div>These are superficial differences; you can see that they mean the same thing.</div>
+            <div>
+                You might notice that we don’t say that we reject or fail to reject the alternate hypothesis. This is
+                because hypothesis testing is not designed to prove or disprove anything. It is only designed to test
+                whether a pattern we measure could have arisen spuriously, or by chance.
+            </div>
+            <div>
+                If we reject the null hypothesis based on our research (i.e., we find that it is unlikely that the
+                pattern arose by chance), then we can say our test lends support to our hypothesis. But if the pattern
+                does not pass our decision rule, meaning that it could have arisen by chance, then we say the test is
+                inconsistent with our hypothesis.
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
