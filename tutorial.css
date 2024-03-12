@@ -2,6 +2,8 @@ body{
     background-color: antiquewhite;
     margin-left: 100px;
     font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    overflow-x: hidden;
 }
 .index{
     font-size: 30px;
